@@ -14,30 +14,13 @@
 
 /* Dishes of the week style starts here */
 
-.bg-img {
-    height: 200px;
-}
-
-.bg-overlay {
-    position: relative;
-    z-index: 2;
-    background-position: center center;
-    background-size: cover;
-}
-
 .head1 {
-    font-size: 26px;
     font-weight: bold;
-}
-
-.bg-secondary1 {
-    --bs-bg-opacity: 1;
-    background-color: rgb(109, 158, 67);
+    font-size: 22px;
 }
 
 .title1 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
 }
 
 .title1:link,
@@ -84,15 +67,11 @@
     opacity: 0;
     filter: alpha(opacity=0);
     background-color: rgba(0, 0, 0, 0.5);
-    -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
-    transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 
 .hovereffect img {
     display: block;
     position: relative;
-    -webkit-transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
-    transition: all 0.4s cubic-bezier(0.88, -0.99, 0, 1.81);
 }
 
 .hovereffect:hover img {

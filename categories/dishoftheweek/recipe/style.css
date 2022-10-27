@@ -14,3 +14,24 @@
 .h-100 {
     height: 100%!important;
 }
+
+
+/* Recipe style */
+
+.title1 {
+    font-size: 20px;
+}
+
+.title1:link,
+.title1:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.title1:hover {
+    color: rgb(143, 181, 110);
+}
+
+.btn-primary.custom-btn {
+    background-color: rgb(130, 140, 131);
+}
