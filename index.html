@@ -13,6 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <!-- Google Font: Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +53,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#aboutUs">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -60,11 +63,48 @@
         </div>
     </nav>
 
-    <header></header>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 h-25"><img src="./images/food-prepare1.jpg" alt="Greeting image"></div>
+                <div class="col-6 h-25"><img src="./images/food-prepare2.png" alt="Greeting image"></div>
+            </div>
+        </div>
+    </header>
 
-    <main></main>
+    <main>
+        <div id="aboutUs" class="container-fluid">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <h1 class="text-center display-3 my-5">About Us</h1>
+                    <p class="fs-3 text-justify my-5">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                        nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </main>
 
-    <footer></footer>
+    <footer class="footer-custom text-center bg-light">
+        <div class="container-fluid">
+            <!-- Section: Social media -->
+            <div class="row" style="border: solid 1px black;">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="col-4"></div>
+                <!-- Section: Social media -->
+            </div>
+        </div>
+    </footer>
 
     <!-- Proprietary JavaScript -->
     <script src="./script.js"></script>
