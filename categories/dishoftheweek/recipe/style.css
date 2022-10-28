@@ -1,0 +1,80 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-custom {
+    height: 100px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.h-100 {
+    height: 100%!important;
+}
+
+
+/* Recipe style */
+
+.title1 {
+    font-size: 20px;
+}
+
+.title1:link,
+.title1:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.title1:hover {
+    color: rgb(143, 181, 110);
+}
+
+.btn-primary.custom-btn {
+    background-color: rgb(130, 140, 131);
+}
+
+
+/* Footer */
+
+.footer-custom {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 55px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
