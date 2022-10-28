@@ -110,3 +110,46 @@
 
 
 /* Dishes of the week style end here */
+
+
+/* Footer */
+
+.footer-custom {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 55px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55acee;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
